@@ -8,13 +8,13 @@
     <application
             android:name="me.molonosov.oprefreshrate.GlobalApplication"
             android:allowBackup="true"
-            android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
 
         <service android:name="me.molonosov.oprefreshrate.tile.RRTileService"
+                 android:icon="@drawable/ic_launcher_foreground"
                  android:label="@string/tile_label"
                  android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>

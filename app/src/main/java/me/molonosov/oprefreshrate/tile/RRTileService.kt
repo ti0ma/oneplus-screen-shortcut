@@ -4,6 +4,8 @@ import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 import me.molonosov.oprefreshrate.service.RefreshRateService
 
+var LABELS_BY_STATE = arrayOf("...", "60 Hz", "90 Hz")
+
 class RRTileService: TileService {
     private var refreshRateService: RefreshRateService? = null
 
@@ -32,7 +34,7 @@ class RRTileService: TileService {
         var tile = qsTile
 
         tile.state = state
-        tile.label = "$state Hz"
+        tile.label = LABELS_BY_STATE[state]
         tile.updateTile()
     }
 
