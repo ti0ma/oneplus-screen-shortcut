@@ -21,5 +21,5 @@ Simple! Each time you switch it over settings menu you change the `oneplus_scree
 
 Now, you can edit the quick settings layout and add the `Tile` whereever you want ;)
 
-(c) Artem Molonosov 2019
+© Artem Molonosov 2019
 MIT License
