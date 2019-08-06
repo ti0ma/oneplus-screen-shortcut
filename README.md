@@ -2,6 +2,8 @@
 
 Just a simple shortcut menu toggle for switching between 60 Hz and 90 Hz refresh rate on the OnePlus 7 Pro
 
+<img src="https://github.com/ti0ma/oneplus-screen-shortcut/raw/master/capture.jpg" width="250" alt="OnePlus screen refresh" />
+
 # Motivation
 
 Basically I got tired doing up to 5 steps each time I wanted to switch between refresh rates for saving battery life or for playing Pokemon GO (it's harder to get a curve ball 😅). I needed something quicker, so I created this APP.
